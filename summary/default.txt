@@ -1,0 +1,29 @@
+Ultralytics YOLOv8.0.121 🚀 Python-3.10.12 torch-2.0.1+cu118 CUDA:0 (Tesla T4, 15102MiB)
+YOLOv5s summary (fused): 193 layers, 9142496 parameters, 0 gradients, 24.0 GFLOPs
+val: Scanning /content/yolov5/datasets/coco_voc_objects_combined/labels/val.cache... 1716 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1716/1716 [00:00<?, ?it/s]
+val: WARNING ⚠️ /content/yolov5/datasets/coco_voc_objects_combined/images/val/objects365_v1_00006056.jpg: 6 duplicate labels removed
+val: WARNING ⚠️ /content/yolov5/datasets/coco_voc_objects_combined/images/val/objects365_v1_00023312.jpg: 8 duplicate labels removed
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 108/108 [00:40<00:00,  2.67it/s]
+                   all       1716       6518      0.342       0.24      0.264      0.195
+                person       1716       3321       0.76      0.671      0.735      0.548
+               bicycle       1716         90      0.739      0.441      0.594      0.376
+                   car       1716        403      0.687      0.494      0.499      0.341
+            motorcycle       1716         94      0.749      0.628      0.702      0.472
+              airplane       1716        150      0.745       0.44      0.565      0.376
+                   bus       1716         39      0.761      0.769      0.783      0.703
+                 train       1716         57      0.756      0.807      0.844      0.667
+                 truck       1716        119          0          0    0.00216    0.00144
+                  boat       1716        117          0          0   0.000222   0.000155
+         traffic light       1716         82          0          0          0          0
+          fire hydrant       1716         85          0          0    0.00136    0.00109
+             stop sign       1716        100          0          0          0          0
+         parking meter       1716        119          1          0          0          0
+                 bench       1716        468          0          0          0          0
+                  bird       1716        613          0          0   0.000102   7.16e-05
+                   cat       1716         86     0.0124     0.0116    0.00127    0.00127
+                   dog       1716        134          0          0   0.000352   0.000106
+                 horse       1716         99          0          0          0          0
+                 sheep       1716         61      0.637      0.541      0.562       0.41
+                   cow       1716        281          0          0          0          0
+Speed: 0.5ms preprocess, 7.5ms inference, 0.0ms loss, 2.8ms postprocess per image
+Results saved to runs/detect/val2
