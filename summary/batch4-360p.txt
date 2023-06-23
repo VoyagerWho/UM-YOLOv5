@@ -1,0 +1,26 @@
+YOLOv5s summary: 157 layers, 7064065 parameters, 0 gradients, 15.9 GFLOPs
+val: Scanning /home/pawel24pl/Dokumenty/Notatki/UM/training/yolov5/data/coco_voc_objects_combined/labels/val.cache... 522 images, 78 backgrounds, 0 corrupt: 100%|██████████| 600/600 [00:00<?, ?it/s]
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100%|██████████| 19/19 [00:05<00:00,  3.28it/s]
+                   all        600       1813      0.399      0.259      0.256      0.138
+                person        600        922      0.594      0.402      0.422      0.216
+               bicycle        600         25      0.401       0.48      0.399      0.154
+                   car        600        133      0.445      0.248      0.204      0.101
+             motorbike        600         31      0.506      0.258      0.355      0.231
+             aeroplane        600         42      0.411      0.119      0.105     0.0372
+                   bus        600         12      0.312      0.167      0.235      0.184
+                 train        600         15      0.646       0.61       0.66      0.353
+                  boat        600         14      0.378      0.357      0.305       0.19
+                  bird        600         41      0.576      0.244      0.227      0.086
+                   cat        600         33      0.597      0.394      0.466      0.223
+                   dog        600         28       0.45      0.321      0.337      0.234
+                 horse        600         47      0.274      0.213      0.183     0.0816
+                   cow        600         34      0.381      0.145      0.162     0.0866
+                bottle        600        112      0.135     0.0268     0.0279     0.0114
+                 chair        600        153      0.173      0.118     0.0624     0.0269
+                  sofa        600         23      0.208     0.0919      0.195      0.103
+           pottedplant        600         36      0.274      0.194     0.0977     0.0431
+           diningtable        600         46      0.432      0.132      0.159     0.0904
+                 sheep        600         25      0.413        0.2      0.199     0.0922
+             tvmonitor        600         41      0.372      0.463      0.321      0.205
+Speed: 0.2ms pre-process, 4.7ms inference, 0.9ms NMS per image at shape (32, 3, 320, 320)
+Results saved to coco_voc_objects_combined/coco_voc_objects_combined2
