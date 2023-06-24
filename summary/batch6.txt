@@ -1,0 +1,27 @@
+Validating runs/detect/train2/weights/best.pt...
+Ultralytics YOLOv8.0.121 🚀 Python-3.10.12 torch-2.0.1+cu118 CUDA:0 (Tesla T4, 15102MiB)
+YOLOv5s summary (fused): 193 layers, 9119276 parameters, 0 gradients, 23.9 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 47/47 [00:29<00:00,  1.62it/s]
+                   all       1500       5758      0.567      0.462      0.486      0.323
+                person       1500       2956      0.715       0.65      0.701      0.488
+               bicycle       1500         87      0.542      0.381      0.467      0.271
+                   car       1500        357      0.544       0.44      0.409      0.271
+             motorbike       1500         92      0.806      0.496      0.625      0.383
+             aeroplane       1500        115      0.559      0.374      0.396      0.245
+                   bus       1500         38      0.413      0.658      0.688      0.567
+                 train       1500         47      0.743      0.574      0.732      0.487
+                  boat       1500         97      0.403      0.237      0.262      0.115
+                  bird       1500        110      0.296      0.391      0.217      0.147
+                   cat       1500         58      0.757      0.828      0.819      0.581
+                   dog       1500         74      0.779      0.608      0.684      0.471
+                 horse       1500         89       0.57       0.61      0.616      0.356
+                   cow       1500        111      0.748       0.24       0.52       0.37
+                bottle       1500        414      0.482      0.256      0.294      0.183
+                 chair       1500        528      0.446      0.301      0.299      0.199
+                  sofa       1500         73      0.694      0.301      0.379      0.253
+           pottedplant       1500        117      0.448      0.419      0.361      0.224
+           diningtable       1500         86      0.372      0.407       0.32      0.205
+                 sheep       1500         52      0.375      0.462      0.313      0.203
+             tvmonitor       1500        257      0.638      0.612      0.613      0.436
+Speed: 0.4ms preprocess, 3.2ms inference, 0.0ms loss, 2.5ms postprocess per image
+Results saved to runs/detect/train2
